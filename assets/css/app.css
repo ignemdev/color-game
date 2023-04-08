@@ -1,74 +1,74 @@
 body {
-    background-color: #232323;
-    margin: 0;
-    font-family: 'Verdana';
+  background-color: #232323;
+  margin: 0;
+  font-family: Verdana, sans-serif;
 }
 
 button {
-    border: none;
-    background: none;
-    text-transform: uppercase;
-    height: 100%;
-    font-weight: 700;
-    color: steelblue;
-    letter-spacing: 1px;
-    font-size: inherit;
-    transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    outline: none;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  outline: none;
 }
 
 h1 {
-    color: white;
-    padding: 20px 0;
-    line-height: 1.1;
-    text-align: center;
-    background-color: steelblue;
-    margin: 0;
-    font-weight: normal;
-    text-transform: uppercase;
+  color: white;
+  padding: 20px 0;
+  line-height: 1.1;
+  text-align: center;
+  background-color: steelblue;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 button:hover {
-    color: white;
-    background-color: steelblue;
+  color: white;
+  background-color: steelblue;
 }
 
 .square {
-    width: 30%;
-    background-color: #232323;
-    float: left;
-    margin: 1.66%;
-    padding-bottom: 30%;
-    border-radius: 15%;
-    transition: background-color .3s ease;
-    -moz-transition: background-color .3s ease;
-    -webkit-transition: background-color .3s ease;
+  width: 30%;
+  background-color: #232323;
+  float: left;
+  margin: 1.66%;
+  padding-bottom: 30%;
+  border-radius: 15%;
+  transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
 }
 
 .selected {
-    color: white;
-    background-color: steelblue;
+  color: white;
+  background-color: steelblue;
 }
 
 #stripe {
-    background-color: white;
-    height: 30px;
-    text-align: center;
-    color: black;
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  color: black;
 }
 
 #container {
-    margin: 20px auto;
-    max-width: 600px;
+  margin: 20px auto;
+  max-width: 600px;
 }
 
 #colordisplay {
-    font-size: 200%;
+  font-size: 200%;
 }
 
 #messagedisplay {
-    display: inline-block;
-    width: 20%;
+  display: inline-block;
+  width: 20%;
 }
